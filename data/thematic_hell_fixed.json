@@ -1,0 +1,512 @@
+{
+  "Hell": {
+    "Nature & Structure": [
+      {
+        "id": 1,
+        "title": "Created by Allah as a real place",
+        "quote": "Indeed, those who disbelieve in Our verses — We will drive them into a Fire.",
+        "source": ["Qur'an 4:56"],
+        "explanation": "Hell is an actual place of punishment, prepared by Allah for the disbelievers."
+      },
+      {
+        "id": 2,
+        "title": "Seven gates of Hell",
+        "quote": "Indeed, Hell has seven gates, and each gate has its group of people assigned to it.",
+        "source": ["Qur'an 15:44"],
+        "explanation": "Each type of disbeliever has a gate corresponding to their deeds."
+      },
+      {
+        "id": 3,
+        "title": "Walls surround dwellers",
+        "quote": "Indeed, We have prepared for the wrongdoers a Fire whose walls will surround them.",
+        "source": ["Qur'an 18:29"],
+        "explanation": "The flames enclose them completely; there is no escape."
+      },
+      {
+        "id": 4,
+        "title": "Flames roar like a wild beast",
+        "quote": "When it sees them from a distant place, they will hear its fury and roaring.",
+        "source": ["Qur'an 25:12"],
+        "explanation": "Hell itself is described as roaring in rage, resembling a living beast."
+      },
+      {
+        "id": 5,
+        "title": "Sealed and closed over them",
+        "quote": "Indeed, it is upon them closed down, in extended columns.",
+        "source": ["Qur'an 104:8-9"],
+        "explanation": "The gates are shut permanently; no escape is possible."
+      },
+      {
+        "id": 6,
+        "title": "Multiple levels with varying punishment",
+        "quote": "Indeed, the hypocrites will be in the lowest depths of the Fire.",
+        "source": ["Qur'an 4:145"],
+        "explanation": "Hell has layers corresponding to the sins and disbelief of its dwellers."
+      },
+      {
+        "id": 7,
+        "title": "Immense size, covering vast areas",
+        "quote": "Its gates will be seventy thousand reins, each held by seventy thousand angels.",
+        "source": ["Sahih Muslim 2842"],
+        "explanation": "Hell's enormity emphasizes the scale of punishment."
+      },
+      {
+        "id": 8,
+        "title": "Darkness and smoke",
+        "quote": "It will be covered with smoke, in which they will be enclosed.",
+        "source": ["Qur'an 77:30-31"],
+        "explanation": "The environment is suffocating and terrifying."
+      },
+      {
+        "id": 9,
+        "title": "Flames like towering columns",
+        "quote": "The Fire will rise in towering columns.",
+        "source": ["Qur'an 77:31"],
+        "explanation": "The fire's structure emphasizes its immense power."
+      },
+      {
+        "id": 10,
+        "title": "Hell is eternal",
+        "quote": "Indeed, Allah will punish them forever in the Fire.",
+        "source": ["Qur'an 2:81"],
+        "explanation": "Punishment is unending for disbelievers and persistent sinners."
+      }
+    ],
+    "Entry & Guardians": [
+      {
+        "id": 11,
+        "title": "Disbelievers driven in groups",
+        "quote": "And those who disbelieved will be driven to Hell in groups.",
+        "source": ["Qur'an 39:71"],
+        "explanation": "People are herded into Hell together, like animals, highlighting humiliation."
+      },
+      {
+        "id": 12,
+        "title": "Guarded by Malik",
+        "quote": "They will call, 'O Malik! Let your Lord put an end to us!' He will say, 'Indeed, you will remain.'",
+        "source": ["Qur'an 43:77"],
+        "explanation": "Malik is the chief angel of Hell, overseeing its punishments."
+      },
+      {
+        "id": 13,
+        "title": "Angels execute punishment precisely",
+        "quote": "Indeed, We have sent down angels who are stern and do not disobey Allah.",
+        "source": ["Qur'an 66:6"],
+        "explanation": "Angels follow Allah's command perfectly, ensuring punishment is exact."
+      },
+      {
+        "id": 14,
+        "title": "Angels are strict and unyielding",
+        "quote": "They do not disobey Allah in what He commands them and do as they are commanded.",
+        "source": ["Qur'an 66:6"],
+        "explanation": "Punishment is executed with absolute obedience."
+      },
+      {
+        "id": 15,
+        "title": "No welcome or relief",
+        "quote": "They enter the Fire with no protection or reprieve.",
+        "source": ["Qur'an 39:71"],
+        "explanation": "Upon entry, there is no comfort, mercy, or hope."
+      }
+    ],
+    "Shackles & Restraints": [
+      {
+        "id": 16,
+        "title": "Shackled hands to necks",
+        "quote": "When the iron collars will be around their necks and the chains; they will be dragged.",
+        "source": ["Qur'an 40:71"],
+        "explanation": "Chains and shackles increase torment and humiliation."
+      },
+      {
+        "id": 17,
+        "title": "Sins become shackles",
+        "quote": "Indeed, We have prepared chains and shackles and a blazing Fire for the disbelievers.",
+        "source": ["Qur'an 76:4"],
+        "explanation": "Their own sins become the cause of their binding and punishment."
+      },
+      {
+        "id": 18,
+        "title": "Chains dragged on their faces",
+        "quote": "They will be dragged on their faces into the Fire.",
+        "source": ["Qur'an 54:48"],
+        "explanation": "Being dragged on their faces heightens humiliation and pain."
+      },
+      {
+        "id": 19,
+        "title": "Bound together in groups",
+        "quote": "And you will see the criminals that Day bound together in shackles.",
+        "source": ["Qur'an 14:49"],
+        "explanation": "Dwellers are chained together, adding collective humiliation."
+      },
+      {
+        "id": 20,
+        "title": "Chains extend long distances",
+        "quote": "Chains will be extended, and they will be dragged.",
+        "source": ["Qur'an 69:32"],
+        "explanation": "Lengthy chains symbolize intensified humiliation."
+      },
+      {
+        "id": 21,
+        "title": "Necks encircled by iron collars",
+        "quote": "Collars of iron will be around their necks, with chains dragging them.",
+        "source": ["Qur'an 40:71"],
+        "explanation": "Physical binding adds to the torment of Hell."
+      }
+    ],
+    "Physical Form": [
+      {
+        "id": 22,
+        "title": "Bodies enlarged to endure punishment",
+        "quote": "The distance between the shoulders of the disbeliever in Hell will be like the distance of three days' travel for a fast rider.",
+        "source": ["Sahih al-Bukhari 6551"],
+        "explanation": "Bodies are exaggerated to amplify the intensity of punishment."
+      },
+      {
+        "id": 23,
+        "title": "Molars like mountains",
+        "quote": "The molar tooth of the disbeliever will be like Mount Uhud.",
+        "source": ["Sahih Muslim 2851"],
+        "explanation": "Physical exaggeration symbolizes the enormity of their suffering."
+      },
+      {
+        "id": 24,
+        "title": "Skin renewed for continuous burning",
+        "quote": "Indeed, those who disbelieve Our verses, We will burn them with Fire and renew their skin every time it burns.",
+        "source": ["Qur'an 4:56"],
+        "explanation": "Burning never ends because the skin is restored to continue suffering."
+      },
+      {
+        "id": 25,
+        "title": "Lips shriveled from heat",
+        "quote": "The Fire will burn their faces, and they will therein grin with displaced lips.",
+        "source": ["Qur'an 23:104"],
+        "explanation": "Extreme heat distorts the lips and facial features."
+      },
+      {
+        "id": 26,
+        "title": "Eyes blinded by heat",
+        "quote": "Their eyes will be blinded in the torment of the Fire.",
+        "source": ["Qur'an 68:43"],
+        "explanation": "Physical torment includes sensory deprivation."
+      },
+      {
+        "id": 27,
+        "title": "Bodies stretched unnaturally",
+        "quote": "The distance between shoulders is like a journey of three days.",
+        "source": ["Sahih al-Bukhari 6551"],
+        "explanation": "Bodies are physically altered to endure extreme torment."
+      },
+      {
+        "id": 28,
+        "title": "Teeth enlarged to extremes",
+        "quote": "Their molars will be like Mount Uhud.",
+        "source": ["Sahih Muslim 2851"],
+        "explanation": "Exaggerated body features symbolize immense suffering."
+      }
+    ],
+    "Torments of Fire": [
+      {
+        "id": 29,
+        "title": "Fire burns to bones",
+        "quote": "With it will be melted that within their bellies as well as their skins.",
+        "source": ["Qur'an 22:20"],
+        "explanation": "Their inner organs and outer flesh are destroyed and renewed for continuous torment."
+      },
+      {
+        "id": 30,
+        "title": "Garments of pitch and molten copper",
+        "quote": "Their garments will be of pitch, and the Fire will cover their faces.",
+        "source": ["Qur'an 14:50"],
+        "explanation": "Clothing intensifies the flames and the suffering."
+      },
+      {
+        "id": 31,
+        "title": "Boiling water cuts intestines",
+        "quote": "And they will be given to drink scalding water that will sever their intestines.",
+        "source": ["Qur'an 47:15"],
+        "explanation": "Scalding water intensifies physical agony internally."
+      },
+      {
+        "id": 32,
+        "title": "Fire leaps over them like mountains",
+        "quote": "On that Day, fire will leap toward the sinners like mountains.",
+        "source": ["Qur'an 55:35"],
+        "explanation": "The flames are described as massive and unstoppable."
+      },
+      {
+        "id": 33,
+        "title": "Garments of molten copper",
+        "quote": "Their garments will be molten copper.",
+        "source": ["Qur'an 22:19-20"],
+        "explanation": "Clothing itself burns, intensifying their agony."
+      },
+      {
+        "id": 34,
+        "title": "Fire covers faces",
+        "quote": "The Fire will cover their faces and smite them from above.",
+        "source": ["Qur'an 14:50"],
+        "explanation": "Even their faces are not spared from burning."
+      },
+      {
+        "id": 35,
+        "title": "Fire burns inner organs",
+        "quote": "It burns their insides as well as their skins.",
+        "source": ["Qur'an 22:20"],
+        "explanation": "Torment is both external and internal."
+      },
+      {
+        "id": 36,
+        "title": "Boiling water poured over heads",
+        "quote": "Boiling water will be poured over their heads, melting their insides.",
+        "source": ["Qur'an 22:19-20"],
+        "explanation": "Physical suffering includes excruciating liquids."
+      },
+      {
+        "id": 37,
+        "title": "Fire engulfs entire body",
+        "quote": "The Fire will burn them to their bones.",
+        "source": ["Qur'an 22:20"],
+        "explanation": "Punishment is both external and internal, affecting entire body."
+      },
+      {
+        "id": 38,
+        "title": "Flames like massive towers",
+        "quote": "The Fire rises like mountains to engulf them.",
+        "source": ["Qur'an 55:35"],
+        "explanation": "Describes the enormity and unrelenting nature of Hellfire."
+      }
+    ],
+    "Food & Drink": [
+      {
+        "id": 39,
+        "title": "Food from Zaqqum tree",
+        "quote": "Indeed, the tree of Zaqqum is the food of the sinful.",
+        "source": ["Qur'an 37:62–66"],
+        "explanation": "Even food becomes a source of torment rather than nourishment."
+      },
+      {
+        "id": 40,
+        "title": "Scalding water and pus",
+        "quote": "And they will be given to drink scalding water that will sever their intestines.",
+        "source": ["Qur'an 47:15"],
+        "explanation": "Drinks cause internal agony."
+      },
+      {
+        "id": 41,
+        "title": "Drink causes more torment",
+        "quote": "They will be given boiling water and pus to drink.",
+        "source": ["Qur'an 35:37"],
+        "explanation": "Instead of quenching thirst, it worsens suffering."
+      },
+      {
+        "id": 42,
+        "title": "Food increases suffering",
+        "quote": "Indeed, the tree of Zaqqum is food for the sinful.",
+        "source": ["Qur'an 37:62–66"],
+        "explanation": "Even their food is bitter and thorny, intensifying torment."
+      },
+      {
+        "id": 43,
+        "title": "Water is boiling and causes pain",
+        "quote": "They will drink scalding water which cuts up their intestines.",
+        "source": ["Qur'an 47:15"],
+        "explanation": "Even drinking intensifies internal torment."
+      },
+      {
+        "id": 44,
+        "title": "Food from Zaqqum increases pain",
+        "quote": "It is the tree of Zaqqum, the food of the sinner.",
+        "source": ["Qur'an 37:62-66"],
+        "explanation": "Food is twisted into a source of suffering."
+      },
+      {
+        "id": 45,
+        "title": "Extreme thirst never quenched",
+        "quote": "They will drink scalding water that does not satisfy thirst.",
+        "source": ["Qur'an 35:37"],
+        "explanation": "Even drinking intensifies agony; there is no relief."
+      },
+      {
+        "id": 46,
+        "title": "Food from Zaqqum tree increases torment",
+        "quote": "The tree of Zaqqum will be their food, bitter and thorny.",
+        "source": ["Qur'an 37:62–66"],
+        "explanation": "Eating is painful and adds to their suffering."
+      }
+    ],
+    "Psychological & Emotional": [
+      {
+        "id": 47,
+        "title": "Eternal regret",
+        "quote": "Lest a soul should say, 'Oh [how great is] my regret over what I neglected in regard to Allah.'",
+        "source": ["Qur'an 39:56"],
+        "explanation": "Mental torment of regret is ongoing and unending."
+      },
+      {
+        "id": 48,
+        "title": "Cursing each other",
+        "quote": "Every time a nation enters, it will curse its sister nation.",
+        "source": ["Qur'an 7:38"],
+        "explanation": "They blame and curse each other, increasing humiliation."
+      },
+      {
+        "id": 49,
+        "title": "Begging for death denied",
+        "quote": "They will cry: 'O our Lord, bring us out!' But they will remain.",
+        "source": ["Qur'an 35:36-37"],
+        "explanation": "They cannot escape; pleas for death or relief are rejected."
+      },
+      {
+        "id": 50,
+        "title": "Envies those turned to dust",
+        "quote": "And the disbeliever will say, 'Oh, I wish that I were dust!'",
+        "source": ["Qur'an 78:40"],
+        "explanation": "They regret existence and envy even inanimate objects."
+      },
+      {
+        "id": 51,
+        "title": "Regret and despair are eternal",
+        "quote": "They will regret what they neglected of Allah's commands.",
+        "source": ["Qur'an 39:56"],
+        "explanation": "Mental anguish is constant and inescapable."
+      },
+      {
+        "id": 52,
+        "title": "Cursing one another",
+        "quote": "Every nation will curse its sister nation.",
+        "source": ["Qur'an 7:38"],
+        "explanation": "Social humiliation amplifies torment."
+      },
+      {
+        "id": 53,
+        "title": "Helplessness and despair",
+        "quote": "They cry out in despair, but they will not escape.",
+        "source": ["Qur'an 35:36-37"],
+        "explanation": "Mental torment is constant and hopeless."
+      },
+      {
+        "id": 54,
+        "title": "Mutual cursing among dwellers",
+        "quote": "Each nation will curse the other as part of their punishment.",
+        "source": ["Qur'an 7:38"],
+        "explanation": "Social torment compounds personal suffering."
+      }
+    ],
+    "Isolation from Allah": [
+      {
+        "id": 55,
+        "title": "Veiled from seeing Allah",
+        "quote": "No! Indeed, from their Lord, that Day, they will be partitioned.",
+        "source": ["Qur'an 83:15"],
+        "explanation": "Deprived of Allah's mercy, they experience ultimate spiritual loss."
+      },
+      {
+        "id": 56,
+        "title": "No intercession accepted",
+        "quote": "No intercessor will be of any benefit to them.",
+        "source": ["Qur'an 74:48"],
+        "explanation": "They are permanently cut off from forgiveness and mercy."
+      },
+      {
+        "id": 57,
+        "title": "No forgiveness or mercy",
+        "quote": "They will have no intercessor and no forgiveness.",
+        "source": ["Qur'an 2:161-162"],
+        "explanation": "Permanently cut off from Allah's grace and mercy."
+      },
+      {
+        "id": 58,
+        "title": "Angels show no compassion",
+        "quote": "Indeed, We have sent down angels who are stern and do not disobey Allah.",
+        "source": ["Qur'an 66:6"],
+        "explanation": "Punishment is precise and merciless; no relief is given."
+      },
+      {
+        "id": 59,
+        "title": "Permanently cut off from mercy",
+        "quote": "They will have no intercessor and no forgiveness.",
+        "source": ["Qur'an 2:161-162"],
+        "explanation": "Ultimate punishment is spiritual separation from Allah."
+      },
+      {
+        "id": 60,
+        "title": "Cannot see or feel Allah's presence",
+        "quote": "They will be partitioned from their Lord that Day.",
+        "source": ["Qur'an 83:15"],
+        "explanation": "Spiritual separation is one of the most severe forms of torment."
+      },
+      {
+        "id": 61,
+        "title": "No intercession allowed",
+        "quote": "No intercessor will be of any benefit to them.",
+        "source": ["Qur'an 74:48"],
+        "explanation": "Total exclusion from mercy and forgiveness."
+      },
+      {
+        "id": 62,
+        "title": "Partitioned from Allah",
+        "quote": "They will be partitioned from their Lord that Day.",
+        "source": ["Qur'an 83:15"],
+        "explanation": "Spiritual separation is one of the harshest punishments."
+      }
+    ],
+    "Additional Punishments": [
+      {
+        "id": 63,
+        "title": "Stench of Hell unbearable",
+        "quote": "The smell of their punishment is so intense that it overwhelms them.",
+        "source": ["Sahih al-Bukhari 3261"],
+        "explanation": "Sensory torment adds to overall suffering."
+      },
+      {
+        "id": 64,
+        "title": "Flames climb high like mountains",
+        "quote": "The Fire will rise to the skies in massive columns.",
+        "source": ["Qur'an 55:35"],
+        "explanation": "The scale of Hell emphasizes Allah's retribution."
+      },
+      {
+        "id": 65,
+        "title": "No escape for the wicked",
+        "quote": "They will remain therein forever.",
+        "source": ["Qur'an 2:81"],
+        "explanation": "Punishment is perpetual with no relief."
+      },
+      {
+        "id": 66,
+        "title": "Mocked by angels",
+        "quote": "Angels do not show pity or sympathy to them.",
+        "source": ["Qur'an 66:6"],
+        "explanation": "Even divine executioners show no leniency."
+      },
+      {
+        "id": 67,
+        "title": "Smoke blinds and chokes",
+        "quote": "Smoke will cover them and darken their vision.",
+        "source": ["Qur'an 77:30-31"],
+        "explanation": "Sensory torment adds to physical and psychological suffering."
+      },
+      {
+        "id": 68,
+        "title": "Flames tower like mountains",
+        "quote": "The Fire rises in towering columns.",
+        "source": ["Qur'an 55:35"],
+        "explanation": "Hell's structure emphasizes immense power of punishment."
+      },
+      {
+        "id": 69,
+        "title": "Unbearable stench adds torment",
+        "quote": "The smell of Hell is intense and overwhelming.",
+        "source": ["Sahih al-Bukhari 3261"],
+        "explanation": "Sensory torment is part of the punishment."
+      },
+      {
+        "id": 70,
+        "title": "No escape from perpetual torment",
+        "quote": "They will remain therein forever.",
+        "source": ["Qur'an 2:81"],
+        "explanation": "Punishment is perpetual and irreversible."
+      }
+    ]
+  }
+}
