@@ -21,10 +21,34 @@
 
     <main class="main-content">
       <section class="content-section">
-        <div class="content-container" id="hellContent">
-          <div class="grid-header">
-            <h2>Loading Hell Facts...</h2>
-            <p>Please wait while we load the data.</p>
+        <div class="tabs-container">
+          <!-- Tab Navigation with Grid Box Buttons -->
+          <div class="tab-nav">
+            <button class="tab-button active" data-tab="thematic">
+              <span class="material-icons">local_fire_department</span>
+              <span>Thematic Hell</span>
+            </button>
+            <button class="tab-button" data-tab="fact">
+              <span class="material-icons">info</span>
+              <span>Hell's Fact (Naar)</span>
+            </button>
+          </div>
+          
+          <!-- Tab Content -->
+          <div class="tab-content">
+            <!-- Thematic Hell Tab -->
+            <div id="thematic-tab" class="tab-panel active">
+              <div class="content-container" id="thematicContent">
+                <!-- Thematic content will be loaded dynamically -->
+              </div>
+            </div>
+            
+            <!-- Hell's Fact Tab -->
+            <div id="fact-tab" class="tab-panel">
+              <div class="content-container" id="factContent">
+                <!-- Hell's fact content will be loaded dynamically -->
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -35,65 +59,6 @@
     </footer>
   </div>
 
-  <script>
-    // Load hell facts when page loads
-    document.addEventListener('DOMContentLoaded', async function() {
-      const container = document.getElementById('hellContent');
-      
-      try {
-        // Fetch hell facts data
-        const response = await fetch('data/hell_detail.json');
-        if (!response.ok) {
-          throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
-        }
-        
-        const facts = await response.json();
-        
-        // Clear loading message
-        container.innerHTML = '';
-        
-        // Create header
-        const header = document.createElement('div');
-        header.className = 'grid-header';
-        header.innerHTML = `
-          <h2>Facts about Hell (Jahannam)</h2>
-          <p>Based on Qur'an, Sahih Hadith, and Classical Tafsir</p>
-          <p>Total facts: ${facts.length}</p>
-        `;
-        container.appendChild(header);
-        
-        // Create grid for facts
-        const grid = document.createElement('div');
-        grid.className = 'verses-grid';
-        
-        // Add all facts to grid
-        facts.forEach(fact => {
-          const card = document.createElement('div');
-          card.className = 'verse-card hell-card';
-          card.innerHTML = `
-            <div class="card-header">
-              <h3>Fact #${fact.id}</h3>
-            </div>
-            <div class="card-content">
-              <p>${fact.fact}</p>
-              <p class="reference">${fact.source}</p>
-            </div>
-          `;
-          grid.appendChild(card);
-        });
-        
-        container.appendChild(grid);
-      } catch (error) {
-        console.error('Error loading hell facts:', error);
-        container.innerHTML = `
-          <div class="grid-header">
-            <h2>Error Loading Hell Facts</h2>
-            <p>Unable to load data: ${error.message}</p>
-            <p>Please try refreshing the page or check your internet connection.</p>
-          </div>
-        `;
-      }
-    });
-  </script>
+  <script src="js/hell-tabs.js"></script>
 </body>
 </html>
