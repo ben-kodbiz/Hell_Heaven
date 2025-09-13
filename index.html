@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaven & Hell in Islam — Interactive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/material-design.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="header-content">
+        <h1>Choose Your Door</h1>
+        <p class="header-subtitle">An interactive, educational exploration of <strong>Heaven (Jannah)</strong> and <strong>Hell (Jahannam)</strong> in Islamic sources.</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="doors-section">
+        <div class="doors-container">
+          <a href="heaven.html" class="door-card door-heaven" role="button" aria-label="Enter Heaven">
+            <div class="door-icon">
+              <span class="material-icons">spa</span>
+            </div>
+            <h2>Enter Heaven</h2>
+            <p>Step into the gardens of light — promises of peace, reward, and eternal bliss.</p>
+            <div class="door-footer">
+              <span class="material-icons">arrow_forward</span>
+            </div>
+          </a>
+
+          <a href="hell.html" class="door-card door-hell" role="button" aria-label="Enter Hell">
+            <div class="door-icon">
+              <span class="material-icons">local_fire_department</span>
+            </div>
+            <h2>Enter Hell</h2>
+            <p>Face the warning of regret — stern reminders about punishment and consequence.</p>
+            <div class="door-footer">
+              <span class="material-icons">arrow_forward</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="questions-section">
+        <div class="section-header">
+          <h2>Common Questions & Answers</h2>
+          <p>Addressing doubts and misconceptions about Islamic teachings on the afterlife</p>
+          <button id="toggleAllButton" class="toggle-all-button">
+            <span class="material-icons">expand_more</span>
+            <span>Show All Answers</span>
+          </button>
+        </div>
+
+        <div class="questions-grid" id="questionsGrid">
+          <!-- Questions will be loaded dynamically -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p><small>Educational project · Content sourced from Qur'an, Sahih Hadith, and classical scholars. For accurate study consult full translations and scholars.</small></p>
+      <p><small><a href="README.md">Project readme</a></small></p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+{
+  "jannah": [
+    {
+      "id": 1,
+      "feature": "Gardens beneath which rivers flow",
+      "source": "Qur’an 3:15",
+      "description": "Paradise will have lush gardens with flowing rivers of water, milk, honey, and wine."
+    },
+    {
+      "id": 2,
+      "feature": "Rivers of milk, honey, wine, and pure water",
+      "source": "Qur’an 47:15",
+      "description": "Unlike worldly drinks, these will not spoil or intoxicate."
+    },
+    {
+      "id": 3,
+      "feature": "Pure spouses",
+      "source": "Qur’an 2:25",
+      "description": "Believers will have purified companions free from worldly flaws."
+    },
+    {
+      "id": 4,
+      "feature": "Everlasting youth",
+      "source": "Hadith (Muslim, 2834)",
+      "description": "All inhabitants of Jannah will be eternally young, around the age of 33."
+    },
+    {
+      "id": 5,
+      "feature": "No sickness, fatigue, or death",
+      "source": "Qur’an 35:35",
+      "description": "Paradise removes all human weaknesses, including death."
+    },
+    {
+      "id": 6,
+      "feature": "Peaceful greetings from angels",
+      "source": "Qur’an 13:23-24",
+      "description": "Angels will welcome the believers with greetings of peace."
+    },
+    {
+      "id": 7,
+      "feature": "No jealousy or hatred",
+      "source": "Qur’an 7:43",
+      "description": "Allah will remove all rancor from their hearts."
+    },
+    {
+      "id": 8,
+      "feature": "Palaces made of gold and silver",
+      "source": "Hadith (Tirmidhi, 2539)",
+      "description": "Believers will dwell in palaces adorned with unimaginable beauty."
+    },
+    {
+      "id": 9,
+      "feature": "Silken garments and bracelets of gold",
+      "source": "Qur’an 18:31",
+      "description": "Inhabitants will wear garments of fine silk and ornaments."
+    },
+    {
+      "id": 10,
+      "feature": "Shaded couches and reclining thrones",
+      "source": "Qur’an 36:56",
+      "description": "Families will recline together on adorned couches."
+    },
+    {
+      "id": 11,
+      "feature": "Eternal bliss without boredom",
+      "source": "Qur’an 41:31",
+      "description": "They will have whatever they desire, forever."
+    },
+    {
+      "id": 12,
+      "feature": "Delicious fruits and food",
+      "source": "Qur’an 55:68",
+      "description": "Fruits of every kind will be available in abundance."
+    },
+    {
+      "id": 13,
+      "feature": "Special drink sealed with musk",
+      "source": "Qur’an 83:25-26",
+      "description": "Believers will drink from cups filled with pure sealed nectar."
+    },
+    {
+      "id": 14,
+      "feature": "Company of righteous and prophets",
+      "source": "Qur’an 4:69",
+      "description": "Believers will be with the Prophets, martyrs, and righteous."
+    },
+    {
+      "id": 15,
+      "feature": "Massive tents of pearls",
+      "source": "Hadith (Bukhari 4879, Muslim 2838)",
+      "description": "Each tent will be made of hollow pearls, vast and radiant."
+    },
+    {
+      "id": 16,
+      "feature": "Beauty far greater than imagination",
+      "source": "Hadith Qudsi (Bukhari 3244, Muslim 2824)",
+      "description": "Allah said: 'I have prepared for My righteous servants what no eye has seen, no ear has heard, and no heart has imagined.'"
+    },
+    {
+      "id": 17,
+      "feature": "Seeing Allah",
+      "source": "Hadith (Bukhari 7444, Muslim 181)",
+      "description": "The greatest blessing of Jannah will be gazing upon the face of Allah."
+    },
+    {
+      "id": 18,
+      "feature": "No hardship or grief",
+      "source": "Qur’an 35:34",
+      "description": "All past sorrow and trials will be erased."
+    },
+    {
+      "id": 19,
+      "feature": "Level upon level of reward",
+      "source": "Hadith (Muslim 2831)",
+      "description": "Paradise has levels, the highest being Al-Firdaws."
+    },
+    {
+      "id": 20,
+      "feature": "Everlasting life of contentment",
+      "source": "Qur’an 43:71",
+      "description": "Servants will provide them with whatever they desire, in complete satisfaction."
+    }
+  ],
+  "hell": [
+    {
+      "id": 1,
+      "feature": "Fire fueled by men and stones",
+      "source": "Qur’an 2:24",
+      "description": "Hellfire will be kindled with humans and stones as fuel."
+    },
+    {
+      "id": 2,
+      "feature": "Seven gates",
+      "source": "Qur’an 15:44",
+      "description": "Hell has seven gates, each for a portion of sinners."
+    },
+    {
+      "id": 3,
+      "feature": "Boiling water to drink",
+      "source": "Qur’an 47:15",
+      "description": "The inhabitants will drink scalding water tearing apart their insides."
+    },
+    {
+      "id": 4,
+      "feature": "Garments of molten copper",
+      "source": "Qur’an 22:19-20",
+      "description": "Garments of molten copper will burn their bodies."
+    },
+    {
+      "id": 5,
+      "feature": "Chains and shackles",
+      "source": "Qur’an 76:4",
+      "description": "Disbelievers will be bound with heavy chains."
+    },
+    {
+      "id": 6,
+      "feature": "Angels of punishment",
+      "source": "Qur’an 74:31",
+      "description": "Nineteen stern angels guard Hell, carrying out Allah’s punishment."
+    },
+    {
+      "id": 7,
+      "feature": "Food of Zaqqum tree",
+      "source": "Qur’an 37:62-66",
+      "description": "Inhabitants will eat from the tree of Zaqqum which boils in their stomachs."
+    },
+    {
+      "id": 8,
+      "feature": "Dark smoke and shade of fire",
+      "source": "Qur’an 56:43-44",
+      "description": "Instead of cool shade, they will be covered with burning smoke."
+    },
+    {
+      "id": 9,
+      "feature": "Intense regret and sorrow",
+      "source": "Qur’an 23:99-100",
+      "description": "The damned will beg to return to life, but will be denied."
+    },
+    {
+      "id": 10,
+      "feature": "Skins burned and replaced",
+      "source": "Qur’an 4:56",
+      "description": "Each time their skin burns off, Allah replaces it so they feel the punishment again."
+    },
+    {
+      "id": 11,
+      "feature": "Blazing fire roaring",
+      "source": "Qur’an 92:14",
+      "description": "The fire of Hell is constantly blazing."
+    },
+    {
+      "id": 12,
+      "feature": "Thirst never quenched",
+      "source": "Qur’an 88:5-6",
+      "description": "They will neither have cool drink nor nourishing food."
+    },
+    {
+      "id": 13,
+      "feature": "Blackened faces",
+      "source": "Qur’an 39:60",
+      "description": "Disbelievers’ faces will be covered in gloom and disgrace."
+    },
+    {
+      "id": 14,
+      "feature": "Crushing torment",
+      "source": "Qur’an 25:13",
+      "description": "They will be thrown into a narrow place in chains, utterly crushed."
+    },
+    {
+      "id": 15,
+      "feature": "Tearless cries and screams",
+      "source": "Qur’an 21:100",
+      "description": "The dwellers will scream and wail endlessly."
+    },
+    {
+      "id": 16,
+      "feature": "Fire hotter than worldly fire",
+      "source": "Hadith (Bukhari 3265, Muslim 2843)",
+      "description": "The fire of Hell is seventy times more intense than worldly fire."
+    },
+    {
+      "id": 17,
+      "feature": "No exit or death",
+      "source": "Qur’an 35:36",
+      "description": "They will neither die nor will the punishment lighten."
+    },
+    {
+      "id": 18,
+      "feature": "Punishment varies by deeds",
+      "source": "Hadith (Muslim 212)",
+      "description": "The punishment of Hell differs based on sins; the least is wearing shoes of fire boiling the brain."
+    },
+    {
+      "id": 19,
+      "feature": "Loss of hope",
+      "source": "Qur’an 43:74",
+      "description": "Inhabitants will despair of any relief."
+    },
+    {
+      "id": 20,
+      "feature": "Eternal separation from Allah",
+      "source": "Qur’an 83:15",
+      "description": "The greatest punishment is being veiled from seeing Allah."
+    }
+  ]
+}

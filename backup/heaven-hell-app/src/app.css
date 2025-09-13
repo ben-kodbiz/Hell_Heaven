@@ -1,0 +1,186 @@
+/* PicoCSS */
+@import "https://unpkg.com/@picocss/pico@latest/css/pico.min.css";
+
+/* Material Design inspired color palette with purple theme */
+:root {
+  /* Purple theme */
+  --purple-primary: #9C27B0;
+  --purple-light: #E1BEE7;
+  --purple-dark: #7B1FA2;
+  --purple-background: #F3E5F5;
+  
+  /* Light black background */
+  --dark-background: #121212;
+  --dark-surface: #1E1E1E;
+  --dark-card: #2D2D2D;
+  --dark-text: #FFFFFF;
+  --dark-text-secondary: #B3B3B3;
+  
+  /* Heaven and Hell colors with better contrast */
+  --heaven-primary: #2196F3;
+  --heaven-light: #BBDEFB;
+  --heaven-dark: #0D47A1;
+  --heaven-background: #0D1B2A;
+  --heaven-text: #FFFFFF;
+  
+  --hell-primary: #F44336;
+  --hell-light: #FFCDD2;
+  --hell-dark: #B71C1C;
+  --hell-background: #2A0A0A;
+  --hell-text: #FFFFFF;
+  
+  /* Material Design variables */
+  --card-radius: 8px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-1: 0 1px 3px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.24);
+  --shadow-2: 0 3px 6px rgba(0,0,0,0.22), 0 3px 6px rgba(0,0,0,0.24);
+  --shadow-3: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.25);
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+/* Custom styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: var(--card-radius);
+  text-align: center;
+  transition: var(--transition);
+  box-shadow: var(--shadow-1);
+  text-decoration: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-2);
+}
+
+/* Material Design door cards */
+.door {
+  padding: 2rem;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.door:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.door h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.door p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Heaven door - Material Design */
+.door-heaven {
+  background: linear-gradient(135deg, var(--heaven-dark), var(--heaven-primary));
+  color: var(--heaven-text);
+  border: 2px solid var(--heaven-light);
+}
+
+.door-heaven:hover {
+  background: linear-gradient(135deg, var(--heaven-primary), var(--heaven-dark));
+  border-color: var(--heaven-light);
+}
+
+/* Hell door - Material Design */
+.door-hell {
+  background: linear-gradient(135deg, var(--hell-dark), var(--hell-primary));
+  color: var(--hell-text);
+  border: 2px solid var(--hell-light);
+}
+
+.door-hell:hover {
+  background: linear-gradient(135deg, var(--hell-primary), var(--hell-dark));
+  border-color: var(--hell-light);
+}
+
+.controls {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.stack {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quote {
+  padding: 1.5rem;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-1);
+  background: var(--dark-card);
+  border-left: 4px solid var(--purple-primary);
+  color: var(--dark-text);
+}
+
+/* Heaven quote specific styles */
+.heaven-quote {
+  border-left: 4px solid var(--heaven-primary);
+}
+
+/* Hell quote specific styles */
+.hell-quote {
+  border-left: 4px solid var(--hell-primary);
+}
+
+/* Small screens */
+@media (max-width: 700px) {
+  .grid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .door {
+    min-width: unset;
+    width: 100%;
+  }
+}

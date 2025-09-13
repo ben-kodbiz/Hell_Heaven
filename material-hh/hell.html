@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hell — Jahannam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/material-design.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header hell-header">
+      <div class="header-content">
+        <h1>🔥 The Fire of Regret — Jahannam</h1>
+        <nav class="back-nav">
+          <a href="index.html">← Back to Doors</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="content-section">
+        <div class="content-container" id="hellContent">
+          <div class="grid-header">
+            <h2>Loading Hell Facts...</h2>
+            <p>Please wait while we load the data.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p><small>Educational content. See README for sources and deployment instructions.</small></p>
+    </footer>
+  </div>
+
+  <script>
+    // Load hell facts when page loads
+    document.addEventListener('DOMContentLoaded', async function() {
+      const container = document.getElementById('hellContent');
+      
+      try {
+        // Fetch hell facts data
+        const response = await fetch('data/hell_detail.json');
+        if (!response.ok) {
+          throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
+        }
+        
+        const facts = await response.json();
+        
+        // Clear loading message
+        container.innerHTML = '';
+        
+        // Create header
+        const header = document.createElement('div');
+        header.className = 'grid-header';
+        header.innerHTML = `
+          <h2>Facts about Hell (Jahannam)</h2>
+          <p>Based on Qur'an, Sahih Hadith, and Classical Tafsir</p>
+          <p>Total facts: ${facts.length}</p>
+        `;
+        container.appendChild(header);
+        
+        // Create grid for facts
+        const grid = document.createElement('div');
+        grid.className = 'verses-grid';
+        
+        // Add all facts to grid
+        facts.forEach(fact => {
+          const card = document.createElement('div');
+          card.className = 'verse-card hell-card';
+          card.innerHTML = `
+            <div class="card-header">
+              <h3>Fact #${fact.id}</h3>
+            </div>
+            <div class="card-content">
+              <p>${fact.fact}</p>
+              <p class="reference">${fact.source}</p>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+        
+        container.appendChild(grid);
+      } catch (error) {
+        console.error('Error loading hell facts:', error);
+        container.innerHTML = `
+          <div class="grid-header">
+            <h2>Error Loading Hell Facts</h2>
+            <p>Unable to load data: ${error.message}</p>
+            <p>Please try refreshing the page or check your internet connection.</p>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>

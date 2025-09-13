@@ -1,0 +1,1066 @@
+/* Material Design CSS for Heaven & Hell App */
+
+:root {
+  /* Material Design Color Palette */
+  --primary-color: #6200ee;
+  --primary-variant: #3700b3;
+  --secondary-color: #03dac6;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
+  --error-color: #cf6679;
+  --on-primary: #ffffff;
+  --on-secondary: #000000;
+  --on-background: #ffffff;
+  --on-surface: #ffffff;
+  --on-error: #000000;
+  
+  /* Heaven Colors - Light Green Theme */
+  --heaven-primary: #4caf50;
+  --heaven-light: #81c784;
+  --heaven-dark: #388e3c;
+  --heaven-surface: #e8f5e9;
+  --heaven-on-surface: #1b5e20;
+  
+  /* Hell Colors */
+  --hell-primary: #f44336;
+  --hell-light: #e57373;
+  --hell-dark: #b71c1c;
+  --hell-surface: #4a148c;
+  --hell-on-surface: #ffffff;
+  
+  /* Typography */
+  --font-family: 'Roboto', sans-serif;
+  --headline1: 6rem;
+  --headline2: 3.75rem;
+  --headline3: 3rem;
+  --headline4: 2.125rem;
+  --headline5: 1.5rem;
+  --headline6: 1.25rem;
+  --subtitle1: 1rem;
+  --subtitle2: 0.875rem;
+  --body1: 1rem;
+  --body2: 0.875rem;
+  --button: 0.875rem;
+  --caption: 0.75rem;
+  --overline: 0.75rem;
+  
+  /* Elevation */
+  --elevation1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --elevation2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  --elevation3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  --elevation4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  --elevation5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+  /* Shape */
+  --shape-small: 4px;
+  --shape-medium: 8px;
+  --shape-large: 12px;
+  
+  /* Motion */
+  --motion-duration: 250ms;
+  --motion-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--on-background);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  padding: 2rem 1rem;
+  box-shadow: var(--elevation2);
+  position: relative;
+  overflow: hidden;
+}
+
+.app-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  transform: rotate(30deg);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+
+.app-header h1 {
+  font-size: var(--headline3);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--on-primary);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.header-subtitle {
+  font-size: var(--subtitle1);
+  color: rgba(255,255,255,0.9);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.back-nav {
+  margin-top: 1rem;
+}
+
+.back-nav a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--shape-small);
+  transition: background-color var(--motion-duration) var(--motion-easing);
+}
+
+.back-nav a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Heaven Header */
+.heaven-header {
+  background: linear-gradient(135deg, var(--heaven-dark), var(--heaven-primary));
+}
+
+/* Hell Header */
+.hell-header {
+  background: linear-gradient(135deg, var(--hell-surface), var(--hell-dark));
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Doors Section */
+.doors-section {
+  margin-bottom: 3rem;
+}
+
+.doors-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.door-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-radius: var(--shape-large);
+  padding: 2rem;
+  text-decoration: none;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation2);
+  position: relative;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+
+.door-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.door-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--elevation4);
+}
+
+.door-card:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
+/* Heaven Door - Light Green Theme */
+.door-heaven {
+  background: linear-gradient(135deg, var(--heaven-surface), var(--heaven-light));
+  color: var(--heaven-on-surface) !important;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+}
+
+.door-heaven h2,
+.door-heaven p {
+  color: var(--heaven-on-surface) !important;
+}
+
+.door-heaven::before {
+  background-color: var(--heaven-primary);
+}
+
+.door-heaven:hover {
+  background: linear-gradient(135deg, var(--heaven-light), var(--heaven-surface));
+}
+
+/* Hell Door */
+.door-hell {
+  background: linear-gradient(135deg, var(--hell-dark), var(--hell-primary));
+  color: var(--hell-on-surface) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.door-hell h2,
+.door-hell p {
+  color: var(--hell-on-surface) !important;
+}
+
+.door-hell::before {
+  background-color: var(--hell-light);
+}
+
+.door-hell:hover {
+  background: linear-gradient(135deg, var(--hell-primary), var(--hell-dark));
+}
+
+/* Door Elements */
+.door-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: inherit;
+}
+
+.door-card h2 {
+  font-size: var(--headline6);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: inherit;
+}
+
+.door-card p {
+  font-size: var(--body2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 1.6;
+  color: inherit;
+}
+
+.door-footer {
+  text-align: right;
+}
+
+.door-footer .material-icons {
+  transition: transform var(--motion-duration) var(--motion-easing);
+  color: inherit;
+}
+
+.door-card:hover .door-footer .material-icons {
+  transform: translateX(4px);
+}
+
+/* Questions Section */
+.questions-section {
+  margin-top: 3rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  font-size: var(--headline5);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--on-background);
+}
+
+.section-header p {
+  font-size: var(--subtitle2);
+  color: rgba(255,255,255,0.7);
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+
+.toggle-all-button {
+  background: rgba(98, 0, 238, 0.2);
+  color: var(--on-background);
+  border: none;
+  border-radius: var(--shape-medium);
+  padding: 0.75rem 1.5rem;
+  font-size: var(--button);
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation1);
+}
+
+.toggle-all-button:hover {
+  background: rgba(98, 0, 238, 0.3);
+  box-shadow: var(--elevation2);
+  transform: translateY(-2px);
+}
+
+.toggle-all-button .material-icons {
+  transition: transform var(--motion-duration) var(--motion-easing);
+}
+
+.toggle-all-button.expanded .material-icons {
+  transform: rotate(180deg);
+}
+
+/* Questions Grid */
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.question-card {
+  background: var(--surface-color);
+  border-radius: var(--shape-medium);
+  overflow: hidden;
+  box-shadow: var(--elevation1);
+  transition: all var(--motion-duration) var(--motion-easing);
+}
+
+.question-card:hover {
+  box-shadow: var(--elevation3);
+  transform: translateY(-4px);
+}
+
+.argument-header {
+  background: rgba(98, 0, 238, 0.15);
+  padding: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.argument-header .material-icons {
+  color: var(--error-color);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.argument-content {
+  flex-grow: 1;
+}
+
+.argument-content h3 {
+  font-size: var(--subtitle1);
+  font-weight: 500;
+  margin: 0;
+  color: var(--on-surface);
+}
+
+.counter-content {
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: none;
+}
+
+.counter-content.expanded {
+  display: block;
+  animation: fadeIn 0.3s var(--motion-easing);
+}
+
+.counter-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.counter-content .reference,
+.counter-content .scholar {
+  font-size: var(--caption);
+  color: rgba(255,255,255,0.7);
+  margin-top: 0.5rem;
+}
+
+.counter-content .reference strong,
+.counter-content .scholar strong {
+  color: var(--secondary-color);
+}
+
+/* Content Section (Heaven/Hell pages) */
+.content-section {
+  margin-top: 2rem;
+}
+
+.view-toggle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.toggle-view-button {
+  background: rgba(98, 0, 238, 0.2);
+  color: var(--on-background);
+  border: none;
+  border-radius: var(--shape-medium);
+  padding: 0.75rem 1.5rem;
+  font-size: var(--button);
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation1);
+}
+
+.toggle-view-button:hover {
+  background: rgba(98, 0, 238, 0.3);
+  box-shadow: var(--elevation2);
+  transform: translateY(-2px);
+}
+
+.content-container {
+  margin-bottom: 2rem;
+}
+
+/* Tabs Container */
+.tabs-container {
+  width: 100%;
+}
+
+/* Tab Navigation */
+.tab-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Tab Button - Styled as Grid Boxes */
+.tab-button {
+  background: var(--surface-color);
+  color: var(--on-background);
+  border: none;
+  border-radius: var(--shape-medium);
+  padding: 1.5rem;
+  font-size: var(--subtitle1);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation1);
+  min-width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid transparent;
+}
+
+.tab-button:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--elevation3);
+}
+
+.tab-button.active {
+  border: 2px solid var(--heaven-primary);
+  box-shadow: var(--elevation2);
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.tab-button .material-icons {
+  font-size: 2rem;
+  color: var(--heaven-primary);
+}
+
+/* Tab Content */
+.tab-content {
+  width: 100%;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+  animation: fadeIn 0.3s var(--motion-easing);
+}
+
+/* Themes Grid */
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Theme Cards */
+.theme-card {
+  background: var(--surface-color);
+  border-radius: var(--shape-medium);
+  overflow: hidden;
+  box-shadow: var(--elevation1);
+  transition: all var(--motion-duration) var(--motion-easing);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.theme-card:hover {
+  box-shadow: var(--elevation3);
+  transform: translateY(-4px);
+}
+
+/* Heaven Card */
+.heaven-card {
+  border-left: 4px solid var(--heaven-primary);
+}
+
+.heaven-card .card-header {
+  background: rgba(76, 175, 80, 0.1);
+}
+
+/* Hell Card */
+.hell-card {
+  border-left: 4px solid var(--hell-primary);
+}
+
+.hell-card .card-header {
+  background: rgba(244, 67, 54, 0.1);
+}
+
+/* Card Header */
+.card-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.card-header h2,
+.card-header h3 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+  color: var(--on-surface);
+}
+
+.card-header h2 {
+  font-size: var(--headline6);
+}
+
+.card-header h3 {
+  font-size: var(--subtitle1);
+}
+
+.reference {
+  margin: 0;
+  font-size: var(--caption);
+  color: rgba(255,255,255,0.7);
+}
+
+/* Card Content */
+.card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+  color: var(--on-surface);
+}
+
+.card-content .extra {
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0;
+}
+
+/* Explore Detail Button */
+.explore-detail-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(76, 175, 80, 0.2);
+  color: var(--heaven-primary);
+  border: 1px solid var(--heaven-primary);
+  border-radius: var(--shape-small);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--motion-duration) var(--motion-easing);
+  text-decoration: none;
+  justify-content: center;
+}
+
+.explore-detail-btn:hover {
+  background: rgba(76, 175, 80, 0.3);
+  transform: translateY(-2px);
+}
+
+.explore-detail-btn .material-icons {
+  font-size: 1.25rem;
+}
+
+/* Theme Link */
+.theme-link {
+  display: inline-block;
+  background: rgba(76, 175, 80, 0.2);
+  color: var(--heaven-primary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--shape-small);
+  font-weight: 500;
+  transition: all var(--motion-duration) var(--motion-easing);
+  text-align: center;
+  border: 1px solid var(--heaven-primary);
+}
+
+.theme-link:hover {
+  background: rgba(76, 175, 80, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Grid Header */
+.grid-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.grid-header h2 {
+  font-size: var(--headline6);
+  font-weight: 500;
+  color: var(--on-background);
+  margin-bottom: 0.5rem;
+}
+
+.grid-header p {
+  color: rgba(255,255,255,0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Verses Grid */
+.verses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.grid-header {
+  margin-bottom: 1.5rem;
+}
+
+.grid-header h2 {
+  font-size: var(--headline6);
+  font-weight: 500;
+  color: var(--on-background);
+  text-align: center;
+}
+
+/* Verse Cards */
+.verse-card {
+  background: var(--surface-color);
+  border-radius: var(--shape-medium);
+  overflow: hidden;
+  box-shadow: var(--elevation1);
+  transition: all var(--motion-duration) var(--motion-easing);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.verse-card:hover {
+  box-shadow: var(--elevation3);
+  transform: translateY(-4px);
+}
+
+.verse-card.featured {
+  grid-column: 1 / -1;
+}
+
+/* Heaven Card */
+.heaven-card {
+  border-left: 4px solid var(--heaven-primary);
+}
+
+.heaven-card .card-header {
+  background: rgba(76, 175, 80, 0.1);
+}
+
+/* Hell Card */
+.hell-card {
+  border-left: 4px solid var(--hell-primary);
+}
+
+.hell-card .card-header {
+  background: rgba(244, 67, 54, 0.1);
+}
+
+/* Card Header */
+.card-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.card-header h2,
+.card-header h3 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+  color: var(--on-surface);
+}
+
+.card-header h2 {
+  font-size: var(--headline6);
+}
+
+.card-header h3 {
+  font-size: var(--subtitle1);
+}
+
+.reference {
+  margin: 0;
+  font-size: var(--caption);
+  color: rgba(255,255,255,0.7);
+}
+
+/* Card Content */
+.card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.card-content p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+  color: var(--on-surface);
+}
+
+.card-content .extra {
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0;
+}
+
+/* Navigation Controls */
+.navigation-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: rgba(98, 0, 238, 0.2);
+  color: var(--on-background);
+  border: none;
+  border-radius: var(--shape-medium);
+  padding: 0.75rem 1.5rem;
+  font-size: var(--button);
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation1);
+  min-width: 120px;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  background: rgba(98, 0, 238, 0.3);
+  box-shadow: var(--elevation2);
+  transform: translateY(-2px);
+}
+
+/* Theme Detail View */
+.theme-detail-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.detail-content {
+  background: var(--surface-color);
+  border-radius: var(--shape-medium);
+  max-width: 1200px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--elevation4);
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.detail-header h2 {
+  font-size: var(--headline5);
+  font-weight: 500;
+  margin: 0;
+  color: var(--on-surface);
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: var(--on-surface);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color var(--motion-duration) var(--motion-easing);
+}
+
+.close-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.detail-summary {
+  padding: 1.5rem;
+  font-size: var(--subtitle1);
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+}
+
+.detail-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.fact-card {
+  background: var(--surface-color);
+  border-radius: var(--shape-medium);
+  overflow: hidden;
+  box-shadow: var(--elevation1);
+  transition: all var(--motion-duration) var(--motion-easing);
+}
+
+.fact-card:hover {
+  box-shadow: var(--elevation3);
+  transform: translateY(-4px);
+}
+
+/* Footer */
+.app-footer {
+  background: var(--surface-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: auto;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.app-footer p {
+  margin-bottom: 0.5rem;
+}
+
+.app-footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 1.5rem 1rem;
+  }
+  
+  .app-header h1 {
+    font-size: var(--headline4);
+  }
+  
+  .header-subtitle {
+    font-size: var(--body2);
+  }
+  
+  .doors-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .door-card {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .questions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .questions-section {
+    margin-top: 2rem;
+  }
+  
+  .section-header h2 {
+    font-size: var(--headline6);
+  }
+  
+  .verses-grid,
+  .themes-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .verse-card.featured {
+    grid-column: 1;
+  }
+  
+  .navigation-controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-button {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .tab-button {
+    min-width: 200px;
+    padding: 1rem;
+  }
+  
+  .detail-facts-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .detail-content {
+    max-height: 95vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    padding: 1rem;
+  }
+  
+  .header-content {
+    padding: 0.5rem;
+  }
+  
+  .door-card {
+    padding: 1.5rem;
+  }
+  
+  .door-icon {
+    font-size: 2.5rem;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .questions-grid {
+    gap: 1rem;
+  }
+  
+  .card-header {
+    padding: 1rem;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .verses-grid,
+  .themes-grid {
+    gap: 1rem;
+  }
+  
+  .tab-button {
+    min-width: 150px;
+    padding: 1rem;
+    font-size: var(--body2);
+  }
+  
+  .detail-header {
+    padding: 1rem;
+  }
+  
+  .detail-header h2 {
+    font-size: var(--headline6);
+  }
+  
+  .detail-summary {
+    padding: 1rem;
+  }
+  
+  .detail-facts-grid {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
