@@ -125,6 +125,36 @@ body {
   margin: 0 auto;
 }
 
+/* Language Switcher */
+.language-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--on-background);
+  border: none;
+  border-radius: var(--shape-medium);
+  padding: 0.5rem 1rem;
+  font-size: var(--button);
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--motion-duration) var(--motion-easing);
+  box-shadow: var(--elevation1);
+}
+
+.language-switcher:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: var(--elevation2);
+  transform: translateY(-2px);
+}
+
+.language-switcher .material-icons {
+  font-size: 1.25rem;
+}
+
 .back-nav {
   margin-top: 1rem;
 }

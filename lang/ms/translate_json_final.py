@@ -1,0 +1,114 @@
+#!/usr/bin/env python3
+import json
+import os
+import re
+
+# Load translation map
+def load_translation_map():
+    with open('translation_map.json', 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+# More sophisticated translation function
+def translate_text(text, translation_map):
+    if not text or not isinstance(text, str):
+        return text
+    
+    # Store original text
+    original_text = text
+    
+    # Create a list of all terms and phrases to translate
+    # Sort by length (longest first) to avoid partial replacements
+    all_translations = []
+    
+    # Add common terms
+    for term, translation in translation_map['common_terms'].items():
+        all_translations.append((term, translation))
+    
+    # Add phrases
+    for phrase, translation in translation_map['phrases'].items():
+        all_translations.append((phrase, translation))
+    
+    # Sort by length (longest first)
+    all_translations.sort(key=lambda x: len(x[0]), reverse=True)
+    
+    # Apply translations
+    for term, translation in all_translations:
+        # Use word boundaries for single words, exact match for phrases
+        if ' ' in term or len(term) > 10:  # Treat as phrase
+            text = text.replace(term, translation)
+        else:  # Treat as single word
+            # Use word boundaries to avoid partial matches
+            escaped_term = re.escape(term)
+            pattern = r'\b' + escaped_term + r'\b'
+            text = re.sub(pattern, translation, text, flags=re.IGNORECASE)
+    
+    return text
+
+# Special handling for specific fields that should not be translated
+def should_translate_field(key):
+    # Don't translate these fields
+    no_translate_fields = ['id', 'no', 'slug', 'reference', 'source_type', 'authenticity', 'interpretation']
+    return key not in no_translate_fields
+
+# Translate a JSON object recursively with field-specific handling
+def translate_json_object(obj, translation_map, field_name=None):
+    if isinstance(obj, dict):
+        result = {}
+        for key, value in obj.items():
+            # Only translate values if the field should be translated
+            if should_translate_field(key):
+                result[key] = translate_json_object(value, translation_map, key)
+            else:
+                result[key] = value
+        return result
+    elif isinstance(obj, list):
+        return [translate_json_object(item, translation_map, field_name) for item in obj]
+    elif isinstance(obj, str):
+        # Only translate if this is a field that should be translated
+        if field_name is None or should_translate_field(field_name):
+            return translate_text(obj, translation_map)
+        else:
+            return obj
+    else:
+        return obj
+
+# Main translation function
+def translate_json_file(input_file, output_file):
+    # Load translation map
+    translation_map = load_translation_map()
+    
+    # Load input JSON
+    with open(input_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    # Translate data
+    translated_data = translate_json_object(data, translation_map)
+    
+    # Save translated JSON
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(translated_data, f, ensure_ascii=False, indent=2)
+
+if __name__ == "__main__":
+    # Translate all JSON files
+    input_dir = "../../data"
+    output_dir = "."
+    
+    files_to_translate = [
+        "thematic_heaven.json",
+        "thematic_hell_fixed.json",
+        "huur_ain.json",
+        "hell_detail.json",
+        "heaven_1.json",
+        "doubt.json"
+    ]
+    
+    for filename in files_to_translate:
+        input_file = os.path.join(input_dir, filename)
+        output_file = os.path.join(output_dir, filename)
+        
+        if os.path.exists(input_file):
+            print(f"Translating {filename}...")
+            translate_json_file(input_file, output_file)
+            print(f"Translated {filename} saved to {output_file}")
+        else:
+            print(f"File {input_file} not found")

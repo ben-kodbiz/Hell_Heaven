@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Close detail view when clicking close button
-    if (e.target.id === 'closeDetailView') {
+    if (e.target.id === 'closeDetailView' || e.target.closest('#closeDetailView')) {
       closeThemeDetail();
     }
   });

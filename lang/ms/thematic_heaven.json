@@ -1,0 +1,627 @@
+{
+  "title": "Jannah (Syurga) — Thematic Facts (al-Quran, Sahih Hadis, Classical Tafsir)",
+  "generated_by": "GPT (compiled from al-Quran, Sahih Hadis, Ibn Kathir, Al-Qurtubi, Al-Tabari, Ibn Hajar, Al-Nawawi)",
+  "notes": "Each fact uses only al-Quran, sahih/hasan Hadis, or classical Tafsir. 'authenticity' indicates primary source Kekuatan. 'interpretation' flags whether scholars treat it literally or with caution.",
+  "themes": [
+    {
+      "id": "t1",
+      "title": "Physical Environment",
+      "summary": "Gardens, rivers, trees, palaces and the general landscape of Syurga.",
+      "slug": "/jannah/environment",
+      "facts": [
+        {
+          "no": 1,
+          "fact": "Gardens (jannat) with rivers flowing Di bawah them are a primary descriptor of Syurga.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 2:25; 3:15; 18:31",
+          "authenticity": "Qur'an",
+          "scholar_note": "Ibn Kathir explains 'gardens Di bawah which rivers Mengalir' as a recurring Qur'anic Imej of Jannah's enduring bounty.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 2,
+          "fact": "There are rivers of Air, Susu, Madu, and Suci Arak in Syurga.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 47:15",
+          "authenticity": "Qur'an",
+          "scholar_note": "Classical Tafsir (Ibn Kathir) treats the four rivers as literal blessings, emphasizing purity and difference from worldly analogues.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 3,
+          "fact": "Palaces, lofty dwellings, and tents—some described as hollowed pearls—are among the abodes.",
+          "source_type": "Hadith + Tafsir",
+          "reference": "Sahih al-Bukhari; Sahih Muslim (hadith about dwellings); Tafsir Ibn Kathir",
+          "authenticity": "Sahih Hadith + Tafsir",
+          "scholar_note": "Hadis Literatur (Bukhari/Muslim) mentions tents and homes made of pearls; scholars generally Menerima these narrations as describing real rewards.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 4,
+          "fact": "A special Pokok exists whose shade stretches a journey of a hundred years.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 3251; Sahih Muslim 2826",
+          "authenticity": "Sahih",
+          "scholar_note": "Found in Bukhari and Muslim; scholars Membawa its enormous size as literal",
+          "interpretation": "literal"
+        },
+        {
+          "no": 5,
+          "fact": "The width and scope of Syurga are vast — described as comparable to the heavens and the earth in Mengganjar and extent.",
+          "source_type": "Qur'an + Tafsir",
+          "reference": "Qur'an 3:133; Tafsir Ibn Kathir",
+          "authenticity": "Qur'an + Tafsir",
+          "scholar_note": "Tafsir emphasizes the vastness to convey scale rather than precise cosmological measurements.",
+          "interpretation": "literal (scale) / metaphorical (precise dimensions)"
+        },
+        {
+          "no": 6,
+          "fact": "Rivers Mengalir Di bawah palaces and gardens; inhabitants often recline on raised couches overlooking flowing Air.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 88:13-16; 76:19",
+          "authenticity": "Qur'an",
+          "scholar_note": "Many verses pair couches/sofas with rivers to depict restful luxury.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Inhabitants & Companions",
+      "summary": "Who lives in Syurga, their appearance, and companions (including hur al-’ayn).",
+      "slug": "/jannah/inhabitants",
+      "facts": [
+        {
+          "no": 7,
+          "fact": "Believers of varying ranks will dwell there—Prophets, martyrs, the righteous—and one’s rank corresponds to deeds.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 4:69; 3:163; Sahih Hadith (Bukhari/Muslim)",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Ibn Kathir and others emphasize gradation according to deeds and stations.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 8,
+          "fact": "Inhabitants will be youthful, often described as around the age of thirty-three (appearance of perpetual youth).",
+          "source_type": "Sahih Hadith",
+          "reference": "Sunan al-Tirmidhi 2545; Sahih Muslim narrations on appearance",
+          "authenticity": "Sahih/Hasan (classical grading varies)",
+          "scholar_note": "Hadis Menerangkan youthful appearance; scholars Negara this indicates perpetual Tenaga.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 9,
+          "fact": "Hur al-’ayn (Suci companions) are described in the Qur’an and Hadis as Suci and reserved for Syurga.",
+          "source_type": "Qur'an + Tafsir",
+          "reference": "Qur'an 44:54; 55:56; Tafsir Ibn Kathir, Al-Qurtubi",
+          "authenticity": "Qur'an + Tafsir",
+          "scholar_note": "Tafsir explains hur al-’ayn as Suci companions; detail beyond the Qur’an is primarily from Hadis and scholarly explanation.",
+          "interpretation": "literal (with theological discussions about nature)"
+        },
+        {
+          "no": 10,
+          "fact": "Rakyat in Syurga will be with their righteous Keluarga members if they wished (reunion is promised for those who are righteous).",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 52:21",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir notes conditional reunification for those united by Iman and righteousness.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 11,
+          "fact": "The lowest person in Syurga will have a Berkongsi vastly superior to the whole worldly life—Hadis mention multiplicative rewards.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 186",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis emphasize scale and abundance compared to worldly wealth.",
+          "interpretation": "literal (scale)"
+        },
+        {
+          "no": 12,
+          "fact": "Rakyat will be served by youthful attendants described in Qur’an imagery as 'like scattered pearls'.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 76:19",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir interprets 'scattered pearls' as imagery for the beauty and Memerintah of servants; cautions about over-literalizing social roles.",
+          "interpretation": "literal (with social nuance)"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Pakaian, Jewelry & Furnishings",
+      "summary": "Garments, jewelry, thrones, and seating described for Jannah's dwellers.",
+      "slug": "/jannah/attire",
+      "facts": [
+        {
+          "no": 13,
+          "fact": "Dwellers will wear garments of fine silk and brocade.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 18:31; 76:21",
+          "authenticity": "Qur'an",
+          "scholar_note": "Ibn Kathir notes silk and brocade symbolize enduring and elevated adornment.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 14,
+          "fact": "They will wear bracelets of gold and pearls.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 22:23; 35:33",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir explains these ornaments signify Menghormati and beauty, not material ostentation.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 15,
+          "fact": "Raised couches and thrones (mahali) are repeatedly mentioned as places of repose and company.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 56:15-16; Sahih Hadith",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Thrones and couches denote comfort and status; Bukhari/Muslim Memasukkan Hadis about reclining in rows.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 16,
+          "fact": "There are vessels of gold and cups passed among inhabitants.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 43:71",
+          "authenticity": "Qur'an",
+          "scholar_note": "Ibn Kathir explains golden vessels as symbols of perpetual provision.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 17,
+          "fact": "Tents made from hollowed pearls are narrated in sahih Hadis as individual abodes.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 3240; Sahih Muslim 2838",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis mentions huge pearls as tents; scholars Menerima as descriptions of Mengganjar.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 18,
+          "fact": "Decor and furnishings will be of precious materials—gold, silver, pearls—indicating permanence and Menghormati.",
+          "source_type": "Qur'an + Tafsir",
+          "reference": "Qur'an 35:33; Tafsir Ibn Kathir",
+          "authenticity": "Qur'an + Tafsir",
+          "scholar_note": "Classical Tafsir views precious materials as expressions of Kekal Menghormati.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "Makanan & Minuman",
+      "summary": "Fruits, meats, drinks, and the nature of sustenance in Syurga.",
+      "slug": "/jannah/food-drink",
+      "facts": [
+        {
+          "no": 19,
+          "fact": "Fruits of Syurga hang within easy reach and are of unending variety and ease of access.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 69:23; 52:22",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir stresses ease and abundance, contrasting worldly Bersusah for Buah-buahan.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 20,
+          "fact": "Rakyat will be served Daging and fruits as they desire—completely satisfying and without digestive need.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 52:22; Sahih Muslim 2835",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Hadis clarifies that inhabitants will eat without the worldly consequences (no excretion).",
+          "interpretation": "literal"
+        },
+        {
+          "no": 21,
+          "fact": "There is sealed, Suci nectar (kafur/nectar) which does not intoxicate or cause Penyakit.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 83:25-26; 37:45-47",
+          "authenticity": "Qur'an",
+          "scholar_note": "Ibn Kathir: this Minuman is unlike worldly Arak—Suci and restful.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 22,
+          "fact": "No bodily impurity (urine, stool, mucus) will occur in Syurga, despite eating and drinking.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 2835",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis explicitly contrasts worldly needs and Jannah's purity.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 23,
+          "fact": "Fruits will be different from worldly fruits—Suci, easy to pluck, and perpetually fresh.",
+          "source_type": "Qur'an + Tafsir",
+          "reference": "Qur'an 56:20-21; Tafsir Ibn Kathir",
+          "authenticity": "Qur'an + Tafsir",
+          "scholar_note": "Scholars underscore qualitative difference from that which we Tahu.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 24,
+          "fact": "Makanan and Minuman will be served in abundance without Usaha or negative aftereffects.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 35:35; Sahih Muslim 2835",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Hadis and al-Quran pair to Menunjukkan effortless provision.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "title": "Social Life & Activities",
+      "summary": "Markets, greetings, meetings, and communal life in Syurga.",
+      "slug": "/jannah/social-life",
+      "facts": [
+        {
+          "no": 25,
+          "fact": "There is a weekly gathering/market in Syurga (some narrations say every Friday) where Rakyat meet and revisit the worldly life as memories.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 2833",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis describes a market-like meeting used for Kegembiraan and exchange of blessings.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 26,
+          "fact": "Rakyat will greet each other with Kedamaian (salam) and will be Membebaskan of Iri or hatred.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 56:26; 7:43",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir highlights the social perfection—unbroken bonds and Suci relations.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 27,
+          "fact": "Residents will remember the worldly life only as a brief thing (memories without Sakit), often as a moment or a glimpse.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 79:46",
+          "authenticity": "Qur'an",
+          "scholar_note": "Scholars Menerangkan this to Menunjukkan Kekal perspective.",
+          "interpretation": "literal (relative time)"
+        },
+        {
+          "no": 28,
+          "fact": "Rakyat will be seated in rows facing each other and will enjoy conversation, laughter, and scenes of Kegembiraan.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 15:47; 36:56",
+          "authenticity": "Qur'an",
+          "scholar_note": "Classical Tafsir links such verses to communal delight.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 29,
+          "fact": "There will be no idle speech, backbiting, or harmful Bercakap—only words of Kedamaian and Memuji.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 56:25-26",
+          "authenticity": "Qur'an",
+          "scholar_note": "Indicates moral purity of speech.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 30,
+          "fact": "Angels Masuk through every Pintu gerbang to greet the inhabitants with Kedamaian and blessings.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 13:23-24",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir describes angelic felicitation as a Tanda of Menghormati.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "Rohani Joys & Seeing Allah",
+      "summary": "The Rohani and transcendent rewards, foremost being the vision of the Lord.",
+      "slug": "/jannah/spiritual-joys",
+      "facts": [
+        {
+          "no": 31,
+          "fact": "The greatest bliss of Syurga is the beatific vision — seeing Allah — affirmed in sahih Hadis.",
+          "source_type": "Sahih Hadith + Tafsir",
+          "reference": "Sahih al-Bukhari 7444; Sahih Muslim 181; Tafsir Ibn Kathir",
+          "authenticity": "Sahih",
+          "scholar_note": "Classical consensus sees the vision of Allah as the highest Mengganjar; Tafsir Literatur discusses theological implications.",
+          "interpretation": "literal (theologically significant)"
+        },
+        {
+          "no": 32,
+          "fact": "Residents will experience perfection of Jantung: no hatred, Iri, anxiety, or grief.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 7:43; Sahih Muslim 2835",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Tafsir explains Rohani purity as part of Kekal felicity.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 33,
+          "fact": "The Rohani contentment in Syurga is permanent; Kegembiraan will not fade and will Meningkatkan.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 43:71; 52:17",
+          "authenticity": "Qur'an",
+          "scholar_note": "Scholars emphasize 'everlasting' aspects of Iluhi pleasure.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 34,
+          "fact": "Glorification and remembrance of Allah will be effortless and natural—part of Syurga's delight.",
+          "source_type": "Hadith",
+          "reference": "Sahih Muslim 2835",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis mentions dhikr as natural repose.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 35,
+          "fact": "There will be no trials, sorrow, Sakit, or fatigue—Suci, uninterrupted ecstasy.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 15:48; 35:35",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir contrasts Syurga's permanence with temporal worldly trials.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 36,
+          "fact": "Blessings will Meningkatkan according to deeds and Iluhi generosity—Rohani ranks vary.",
+          "source_type": "Qur'an + Tafsir",
+          "reference": "Qur'an 3:163; Ibn Kathir commentary",
+          "authenticity": "Qur'an + Tafsir",
+          "scholar_note": "Ibn Kathir and others Menjelaskan that rewards are both just and abundant.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "title": "Ranks, Entry & Gates",
+      "summary": "Gates, highest levels (Al-Firdaws), admission criteria and ranks inside Syurga.",
+      "slug": "/jannah/ranks-entry",
+      "facts": [
+        {
+          "no": 37,
+          "fact": "Syurga has Lapan gates, each Pintu gerbang associated with particular acts of Beribadah or groups mentioned in Hadis.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 3257; Sahih Muslim (similar narrations)",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis narrations link gates to categories (e.g., prayer, charity), Tafsir expands on symbolism.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 38,
+          "fact": "Al-Firdaws (al-firdaus) is described as the highest and central part of Syurga Di bawah the Takhta of Allah.",
+          "source_type": "Sahih Hadith + Tafsir",
+          "reference": "Sahih al-Bukhari 2790; Tafsir Ibn Kathir",
+          "authenticity": "Sahih + Tafsir",
+          "scholar_note": "Scholars stress the excellence and centrality of al-Firdaws.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 39,
+          "fact": "Admission is by Allah's Rahmat and by Iman and righteous action; intercession (shafa'ah) is a promised Rahmat for some.",
+          "source_type": "Qur'an + Sahih Hadith",
+          "reference": "Qur'an 4:123; Sahih al-Bukhari/Muslim on intercession",
+          "authenticity": "Qur'an + Sahih",
+          "scholar_note": "Tafsir and Hadis Berbincang limits and the role of Rahmat and intercession.",
+          "interpretation": "literal/theological"
+        },
+        {
+          "no": 40,
+          "fact": "Ranks differ: Rakyat are placed according to deeds—Prophets, martyrs, sincere worshippers occupy higher stations.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 3:163; Sahih Hadith",
+          "authenticity": "Qur'an + Sahih",
+          "scholar_note": "Ibn Kathir and Al-Qurtubi detail rank distinctions.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 41,
+          "fact": "The first to Masuk Syurga will Memasukkan the prophets and the most righteous; the Prophet Muhammad ﷺ is described as among the first.",
+          "source_type": "Hadith",
+          "reference": "Sahih Muslim 197",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis corpus marks key figures entering early as honorific precedence.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 42,
+          "fact": "Some believers who sinned may Masuk Neraka temporarily for purification and later be admitted to Syurga by Allah’s Rahmat (as per sahih narrations).",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 7440; Sahih Muslim 184",
+          "authenticity": "Sahih",
+          "scholar_note": "Scholars Menerangkan this as part of Iluhi Keadilan and Rahmat—Muslims who Mati with major Dosa without repentance may be purified.",
+          "interpretation": "literal/theological"
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "title": "Measurements & Extraordinary Dimensions",
+      "summary": "Narrated sizes, distances, and physical exaggerations used to convey majesty and scale.",
+      "slug": "/jannah/measurements",
+      "facts": [
+        {
+          "no": 43,
+          "fact": "Some Hadis Menerangkan enormous physical attributes (e.g., tents/homes measured in wide spans, huge Gigi, large distances) to denote scale.",
+          "source_type": "Sahih Hadith + Tafsir",
+          "reference": "Sahih al-Bukhari; Sahih Muslim; Tafsir Ibn Kathir",
+          "authenticity": "Sahih + Tafsir",
+          "scholar_note": "Scholars Menerima narrated magnitudes but caution that some may be metaphorical for scale rather than literal engineering specs.",
+          "interpretation": "literal (scale) / metaphorical (exact measure contested)"
+        },
+        {
+          "no": 44,
+          "fact": "There are Hadis specifying enormous sizes for some Syurga features (e.g., a tent of a Orang beriman as a hollowed pearl many miles wide).",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 3240; Sahih Muslim 2838",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis are taken as authentic; Tafsir authors Berbincang whether to Menerima these literally or as indicative of immense Mengganjar.",
+          "interpretation": "literal (with scholarly caveat)"
+        },
+        {
+          "no": 45,
+          "fact": "Trees and shades are sometimes given journeys or time-measures (e.g., shade spanning a hundred years) to communicate immensity.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari 3251; Sahih Muslim 2826",
+          "authenticity": "Sahih",
+          "scholar_note": "Scholars generally Menerima the Hadis; Berdebat focuses on whether 'hundred years' is literal distance/time or hyperbolic to convey vastness.",
+          "interpretation": "literal (scale) / metaphorical"
+        },
+        {
+          "no": 46,
+          "fact": "The rewards of the lowest person in Syurga are said to surpass the entire world many times over (Hadiths express this multiplicative Idea).",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 186",
+          "authenticity": "Sahih",
+          "scholar_note": "This shows qualitative, not only quantitative, superiority.",
+          "interpretation": "literal (comparative)"
+        },
+        {
+          "no": 47,
+          "fact": "Descriptions sometimes use travel-time metaphors to express size (e.g., 'a Pokok whose shade a traveler would cross in many years').",
+          "source_type": "Sahih Hadith + Tafsir",
+          "reference": "Sahih al-Bukhari; Tafsir Ibn Kathir",
+          "authenticity": "Sahih + Tafsir",
+          "scholar_note": "Tafsir notes rhetorical use to convey grandeur.",
+          "interpretation": "metaphorical (for scale) / literal contested"
+        },
+        {
+          "no": 48,
+          "fact": "Tafsir Literatur often reframes extraordinary measurements as signs of unimaginable Mengganjar rather than physical blueprints.",
+          "source_type": "Tafsir",
+          "reference": "Ibn Kathir; Al-Qurtubi",
+          "authenticity": "Classical Tafsir",
+          "scholar_note": "Scholars stress that human concepts of measure are inadequate to Menangkap Kekal realities.",
+          "interpretation": "scholarly guidance"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "title": "Emotional Negara & Purity",
+      "summary": "No sorrow, no fatigue, absence of impurity and perfect contentment.",
+      "slug": "/jannah/emotional-purity",
+      "facts": [
+        {
+          "no": 49,
+          "fact": "There will be no grief, Takut, anxiety, or sadness in Syurga.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 2:62; 7:43",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir: Selesai emotional perfection and Kedamaian are central attributes.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 50,
+          "fact": "Inhabitants will not Menderita any Penyakit, aging, or Kematian—perpetual Kesihatan and youthfulness are promised.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 2837; Sahih Muslim 2835",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadis includes explicit statements about absence of Penyakit, aging, and Kematian.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 51,
+          "fact": "There will be no bodily impurities (no urine, stool, mucus), yet pleasures of eating/drinking will Kekal.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 2835",
+          "authenticity": "Sahih",
+          "scholar_note": "A strong Hadis stressing the qualitative difference of bodily functioning in Syurga.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 52,
+          "fact": "Scent in Syurga is Suci; inhabitants sweat a fragrance like musk instead of foul perspiration.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim 2835",
+          "authenticity": "Sahih",
+          "scholar_note": "Described in Hadis as musk-scented sweat—indicates refined bodily Negara.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 53,
+          "fact": "Hearts will be united—no Iri, hatred or broken ties; Rakyat will be content and loving.",
+          "source_type": "Hadith + Qur'an",
+          "reference": "Sahih al-Bukhari 6573; Qur'an 7:43",
+          "authenticity": "Sahih + Qur'an",
+          "scholar_note": "Hadis and al-Quran together depict moral perfection among inhabitants.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 54,
+          "fact": "Kegembiraan and laughter are described as part of social felicity—memories of hardship become trivial.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 83:34; Sahih Muslim narrations",
+          "authenticity": "Qur'an + Sahih Hadith",
+          "scholar_note": "Scholars emphasize remedial aspect—worldly pains become insignificant.",
+          "interpretation": "literal"
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "title": "Warnings, Causes & Access",
+      "summary": "What leads to Jannah, warnings, Rahmat, and the relation of deeds/Rahmat to entry.",
+      "slug": "/jannah/warnings-and-access",
+      "facts": [
+        {
+          "no": 55,
+          "fact": "Entry to Syurga is by Allah’s Rahmat; righteous deeds and Iman are the means, but ultimately acceptance is by Iluhi Rahmat.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 4:123; Sahih Hadith on mercy and deeds",
+          "authenticity": "Qur'an + Sahih",
+          "scholar_note": "Tafsir Literatur repeatedly stresses the balance of Iluhi Keadilan and Rahmat.",
+          "interpretation": "theological"
+        },
+        {
+          "no": 56,
+          "fact": "Kepercayaan (iman) and righteous action (amal salih) are repeatedly given as the cause for Syurga.",
+          "source_type": "Qur'an",
+          "reference": "Qur'an 18:107; 98:7-8",
+          "authenticity": "Qur'an",
+          "scholar_note": "Tafsir: practical examples Memasukkan prayer, fasting, charity.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 57,
+          "fact": "Warnings and admonitions in Qur’an and Hadis Menunjukkan that sinful behavior, ingratitude, and hypocrisy imperil admission.",
+          "source_type": "Qur'an + Hadith",
+          "reference": "Qur'an 4:145; Sahih Hadith on hypocrites",
+          "authenticity": "Qur'an + Sahih",
+          "scholar_note": "Ibn Kathir and others compile lists of culpable acts; scholars emphasize repentance.",
+          "interpretation": "literal"
+        },
+        {
+          "no": 58,
+          "fact": "Intercession (shafa'ah) is a promised Rahmat; the Prophet ﷺ and others will intercede by Allah’s permission.",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih al-Bukhari; Sahih Muslim (hadith on shafa'ah)",
+          "authenticity": "Sahih",
+          "scholar_note": "Major theological works Berbincang limits and conditions of intercession.",
+          "interpretation": "theological/literal"
+        },
+        {
+          "no": 59,
+          "fact": "Consistent small righteous deeds are emphasized (Hadis about small acts accumulating rewards leading to Syurga).",
+          "source_type": "Sahih Hadith",
+          "reference": "Sahih Muslim; Imam Nawawi commentary",
+          "authenticity": "Sahih",
+          "scholar_note": "Hadiths encourage steady practice; scholars emphasize sustainability of Beribadah.",
+          "interpretation": "practical/literal"
+        },
+        {
+          "no": 60,
+          "fact": "Syurga is described as surrounded by hardships—the Laluan to it entails Bergelut, trials, and moral vigilance.",
+          "source_type": "Sahih Hadith + Qur'an",
+          "reference": "Sahih al-Bukhari 6487; Qur'an passages on trials",
+          "authenticity": "Sahih + Qur'an",
+          "scholar_note": "Hadis metaphorically and literally describes hardships that refine believers.",
+          "interpretation": "metaphorical & practical"
+        }
+      ]
+    }
+  ]
+}
